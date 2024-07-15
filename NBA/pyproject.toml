@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "code"
+version = "0.1.0"
+description = "NBA"
+authors = ["Juan José Serrano Gutiérrez <juanjo.jjserra@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+beautifulsoup4 = ">=4.0"
+nba_api = ">=1.5,<2.0"
+numpy = ">=1.2"
+pandas = ">=2.0.0"
+python = ">=3.11,<4.0"
+requests = ">=2.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = ">=6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
